@@ -1,0 +1,29 @@
+---
+title: "Day 3 Tasks & Activities"
+author: "Paloma Cartwright"
+date: "04/08/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Vector Coding Practice 
+
+```{r}
+
+#Create Vector a 
+vec_a <- c(1, 6)
+
+vec_b <- c(2, 4)
+
+vec_a + vec_b
+
+vec_b - vec_a
+
+4 * vec_a
+
+vec_a %*% vec_b
+```
+
